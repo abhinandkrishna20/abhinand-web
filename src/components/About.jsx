@@ -1,6 +1,12 @@
+import dev from './about.webp';
 const About = () => {
   return (
-    <div style={{ height: "80%" }} class="container text-center">
+    <div class="container about">
+      <div className="row">
+        <div className="col-md-6">
+          <img src={dev} alt="" />
+        </div>
+        <div className="col-md-6">
       <h1>About Me</h1>
       <div>
         Hey, I'm Abhinand! I'm a software developer working in Bangalore.
@@ -19,6 +25,8 @@ const About = () => {
           <li>GitHub</li>
           <li>Twitter</li>
         </ul>
+      </div>
+      </div>
       </div>
     </div>
   );
