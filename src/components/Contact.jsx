@@ -1,5 +1,3 @@
-import { Button } from "bootstrap";
-
 const Contact = () => {
   return (
     <div className="container contact">
