@@ -26,6 +26,8 @@ nav {
   padding: 20px;
   margin: 30px;
   box-shadow: 5px 5px 5px 5px #0e1f83;
+  z-index: 1;
+  justify-content: center;
 }
 img {
   width: 100%;
@@ -62,6 +64,30 @@ Link {
   box-shadow: 5px 5px 5px 5px #aa00aa;
 }
 .services {
+  z-index: 1;
+  height: fit-content;
+  top: 110px;
+  text-align: left;
+  margin-top: 50px;
+  box-sizing: border-box;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 11%;
+  box-shadow: 5px 5px 5px 5px #aa00aa;
+}
+.projects {
+  z-index: 1;
+  height: fit-content;
+  top: 110px;
+  text-align: left;
+  margin-top: 50px;
+  box-sizing: border-box;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 11%;
+  box-shadow: 5px 5px 5px 5px #aa00aa;
+}
+.contact {
   z-index: 1;
   height: fit-content;
   top: 110px;
@@ -128,16 +154,43 @@ input span {
   text-align: right;
 }
 .box0 {
-  background-color: #000000;
-  box-shadow: 1px 2px 1px 1px #5bbbf3;
-  height: 170px;
+  width: 70%;
+  background-color: #111111;
+  box-sizing: border-box;
+  height: fit-content;
+  margin: 5px;
 }
-.btnbg {
+.container-center {
+  text-align: center;
+
+  padding: 20px;
+}
+.row-w {
+  width: 100%;
+  text-align: center;
+}
+.btn-bg {
   background-color: #38b6ff;
-  border-radius: 20px;
-  margin-top: 20px;
-  width: 30%;
+  color: #111111;
+  box-shadow: 3px 3px 2px 1px #ffaaff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 30px;
 }
-.btngroup {
-  width: fit-content;
+
+.card-design1 {
+  color: #38b6ff;
+  background-color: #000000;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px 5px #0e1f83;
+  z-index: 1;
+  justify-content: center;
+  border-radius: 30px;
+}
+.L1 {
+  text-align: left;
 }
