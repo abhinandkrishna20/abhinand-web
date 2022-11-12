@@ -1,39 +1,29 @@
 const Projects = () => {
-  
   return (
-    <div>
+    <div className="projects container">
       <h2>Projects</h2>
-      <div className="container pro">
+      <div className="container container-center">
         <div className="row">
-          <div className="col-md-4">
-            
-            <div className="box0">
-              <div className="row">
-                <div className="col-md-6">date</div>
-                <div className="col-md-6">star</div>
+          <div className="bg-dark p-1">
+            <div className="row row-w">
+              <div className="col-md-3 card-design1">
+                <div className="h5 p-1 L1">23-Sep-2022</div>
+                <div className="h3 p-1">Project 1</div>
+                <div className="btn-bg p-1">Source</div>
               </div>
-              <div className="h5 pname">Project Name</div>
-              <div className="container btncontainer">
-                <div className="row">
-                  <button
-                    className="col-md-4"
-                    style={{ "content-align": "left" }}
-                  >
-                    Demo
-                  </button>
-                  <div className="col-md-4"></div>
-                  <button
-                    className="col-md-4"
-                    style={{ "content-align": "right" }}
-                  >
-                    Sourc
-                  </button>
-                </div>
+
+              <div className="col-md-3 card-design1">
+                <div className="h5 p-1 L1">18-Oct-2022</div>
+                <div className="h3 p-1">Project 2</div>
+                <div className="btn-bg p-1">Source</div>
+              </div>
+
+              <div className="col-md-3 card-design1">
+                <div className="h5 p-1 L1">20-Nov-2022</div>
+                <div className="h3 p-1">Project </div>
+                <div className="btn-bg p-1">Source</div>
               </div>
             </div>
-            
-            
-            
           </div>
         </div>
       </div>
