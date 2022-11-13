@@ -43,7 +43,13 @@ const Contact = () => {
               cols={40}
             />
           </div>
-        </div>
+        </div >
+        <div className="offset-4 col-md-6 mt-3">
+              <div className="btn btn-primary m-2 ">
+            Send Message
+            </div>
+            </div>
+            
       </div>
     </div>
   );

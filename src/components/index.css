@@ -26,8 +26,13 @@ nav {
   padding: 20px;
   margin: 30px;
   box-shadow: 5px 5px 5px 5px #0e1f83;
-  z-index: 1;
+  
   justify-content: center;
+}
+.projects-box{
+  top: 300px;
+  left: 100px;
+  z-index: inherit;
 }
 img {
   width: 100%;
@@ -172,12 +177,17 @@ input span {
 .btn-bg {
   background-color: #38b6ff;
   color: #111111;
-  box-shadow: 3px 3px 2px 1px #ffaaff;
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
-  width: 25%;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
   text-align: center;
+  box-shadow: 2px 2px 2px 2px #7b3fa3;
+  padding: 15px 32px;
+  height: auto;
+  margin: 2px 2px;
+  width: auto;
+  
   margin-bottom: 30px;
 }
 
@@ -187,10 +197,18 @@ input span {
   padding: 20px;
   margin: 30px;
   box-shadow: 5px 5px 5px 5px #0e1f83;
-  z-index: 1;
   justify-content: center;
   border-radius: 30px;
+  height: 170px;
+  width: 220px;
+
 }
 .L1 {
   text-align: left;
+}
+.projects-box{
+  z-index: 0;
+}
+.logo{
+  text-decoration: none;
 }
