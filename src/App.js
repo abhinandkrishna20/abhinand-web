@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
@@ -25,6 +26,7 @@ export default function App() {
         <Services />
         <Projects />
         <Contact />
+        <Footer />
       </BrowserRouter>
     </div>
   );

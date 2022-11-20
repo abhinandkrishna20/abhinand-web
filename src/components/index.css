@@ -38,6 +38,18 @@ img {
 Link {
   text-decoration: none;
 }
+.footer-class{
+    
+  z-index: 1;
+  height: fit-content;
+    text-align: left;
+  margin-top: 50px;
+  box-sizing: border-box;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  
+}
 .home {
   z-index: 1;
   height: fit-content;
